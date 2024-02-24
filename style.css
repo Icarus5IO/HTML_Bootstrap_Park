@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 56px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #228B22, #8B4513);
+    color: #fff;
+}
+
+.header {
+    background: linear-gradient(to top, #228B22, #8B4513);
+    padding: 20px 0;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #228B22, #8B4513);
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #4CAF50;
+}
+
+.park-image {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Park Landing Page</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Jarassic National Park</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Location</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="container mt-5">
+
+            <section id="gallery">
+                <h2 class="text-center mb-4">Jarassic National Gallery</h2>
+                <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="static/park_overhead_view.jpg" alt="Gallery Image 1" class="d-block w-100">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="static/straight_bridge.jpg" alt="Gallery Image 2" class="d-block w-100">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="static/side_view.jpg" alt="Gallery Image 3" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="static/raptor_front.jpg" alt="Gallery Image 4" class="d-block w-100">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="static/water ride.jpg" alt="Gallery Image 5" class="d-block w-100">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="static/waterfall.jpg" alt="Gallery Image 6" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="static/waterfall_view_2.jpg" alt="Gallery Image 4" class="d-block w-100">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="static/bush-view.jpg" alt="Gallery Image 5" class="d-block w-100">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="static/t-rex.jpg" alt="Gallery Image 6" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+
+            <div class="container mt-5">
+
+                <section id="park-description" class="mt-5">
+                    <h2 class="text-center mb-4">Discover Jurassic National Park</h2>
+        
+                    <p>Welcome to Jurassic National Park, where the wonders of prehistoric life come to life amidst breathtaking landscapes. Nestled in the heart of nature, our park offers an enchanting experience for visitors of all ages.</p>
+        
+                    <p>Immerse yourself in the unparalleled beauty of lush greenery, towering ancient trees, and scenic vistas that transport you to a world untouched by time. The park's landscapes provide the perfect backdrop for an unforgettable adventure.</p>
+        
+                    <p>At Jurassic National Park, encounter a myriad of fascinating creatures, each representing a diverse range of wildlife from the ancient past. From majestic dinosaurs roaming freely in open habitats to vibrant bird species filling the air with melodious tunes, our park showcases the incredible biodiversity of our planet's history.</p>
+        
+                    <p>Bring the whole family and embark on an expedition filled with excitement and discovery. Our family-friendly activities include interactive exhibits, educational programs, and thrilling adventures suitable for explorers of all ages. Create lasting memories as you witness the magic of nature alongside your loved ones.</p>
+        
+                    <p>Whether you're a nature enthusiast, an adventure seeker, or a curious soul, Jurassic National Park promises a unique and unforgettable experience. Join us in celebrating the wonders of the past, embracing the diversity of life, and creating cherished moments with your family.</p>
+                </section>
+            </div>
+
+            <section id="location" class="mt-5">
+                <h2 class="text-center mb-4">Park Location</h2>
+                <img src="static/map.png" alt="Park Location Map" class="park-image">
+            </section>
+        </div>
+    </body>
+
+</html>
